@@ -1,0 +1,15 @@
+.company {
+  padding-top: 73px;
+  
+  background-color: #fdf0e9;
+  &__wrapper {
+    display: flex;
+    gap: 146px;
+    margin-bottom: 72px;
+  }
+}
+.hr{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}

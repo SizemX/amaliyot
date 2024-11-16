@@ -1,0 +1,45 @@
+.work {
+    background-color: #FDF0E9;
+    padding-top: 178px;
+    &__wrapper{
+      display: flex;
+      justify-content: center;
+      gap: 130px;
+
+    }
+  span {
+    color: #ef6d58;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  h3 {
+    color: #391400;
+
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 17px;
+  }
+  p {
+    color: #391400a3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 31px;
+    margin-bottom: 28px;
+  }
+  a {
+    color: #391400;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .numbers{
+    color: #391400;
+    font-size: 72px;
+    font-weight: 800;
+    margin-right: 66px;
+  }
+  .number__desc{
+    color: #391400;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

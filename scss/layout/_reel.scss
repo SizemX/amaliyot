@@ -1,0 +1,46 @@
+.reel {
+  padding-top: 127px;
+  background-color: #fdf0e9;
+  padding-bottom: 268px;
+  .left-box {
+    width: 570px;
+    position: relative;
+    img {
+      position: absolute;
+      z-index: 99;
+    }
+    .player {
+      left: 222px;
+      top: 100px;
+    }
+    .time {
+      top: 314px;
+      left: 24px;
+    }
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+  .right-box {
+    padding-top: 60px;
+    
+    span {
+      color: #ef6d58;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    h3 {
+      color: #391400;
+      font-size: 40px;
+      font-weight: 800;
+      padding-top: 17px;
+      padding-bottom: 28px;
+    }
+    p {
+      color: #391400a3;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.features {
+  padding-top: 100px;
+  background-color: #fdf0e9;
+  &__wrapper{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .left__box {
+    .features__title {
+      color: #ef6d58;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    h3 {
+      color: #391400;
+      font-size: 55px;
+      font-weight: 800;
+      margin-top: 20px;
+      margin-bottom: 26px;
+    }
+    p {
+      color: #391400;
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 26px;
+    }
+  }
+  .chesk__box {
+      display: flex;
+      align-items: center;
+    }
+    .img__desc{
+        margin-left: 16px;
+    }
+    
+}

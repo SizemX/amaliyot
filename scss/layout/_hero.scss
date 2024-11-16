@@ -1,0 +1,83 @@
+.hero {
+  background: #28293e;
+  text-align: left;
+  
+  &__btn-box {
+    button {
+      color: white;
+      font-size: 14px;
+      font-weight: 900;
+      padding: 16px 23px;
+      background: #ef6d58;
+      margin-right: 46px;
+      border-radius: 6px;
+      border: none;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+      margin-bottom: 112px;
+    }
+    button:hover {
+      color: #ef6d58;
+      background-color: white;
+      transform: scale(1.03);
+      border-radius: 10px;
+    }
+    a {
+      color: rgba(255, 255, 255, 0.653);
+      font-size: 16px;
+      font-size: 400;
+    }
+    a:hover {
+      color: white;
+    }
+  }
+  &__left-box {
+    span {
+      font-size: 16px;
+      font-weight: 400;
+      color: #ef6d58;
+    }
+    h1 {
+      font-size: 72px;
+      font-weight: 800;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      color: white;
+      position: relative;
+    }
+    p {
+      color: rgba(255, 255, 255, 0.556);
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 34px;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .progile-box {
+    position: relative;
+    margin-left: 65px;
+    p {
+      padding: 0;
+      margin-bottom: 10px;
+    }
+    img {
+      position: absolute;
+      left: -60px;
+    }
+    .hero__profile_last-name {
+      color: white;
+      margin-left: 5px;
+    }
+
+  }
+  .hero__star{
+    position: absolute;
+    left: 261px;
+    top: -21px;
+    z-index: 0;
+  }
+}

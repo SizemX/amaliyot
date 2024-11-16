@@ -1,0 +1,88 @@
+.profissional {
+  background-color: #fdf0e9;
+  padding-bottom: 213px;
+  padding-top: 320px;
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-right: 163px;
+    gap: 130px;
+    position: relative;
+  }
+  .left__box {
+    span {
+      color: #ef6d58;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    p {
+      color: #391400;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 28px;
+    }
+    a {
+      color: #391400;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  .right__box {
+    .card {
+      padding-bottom: 46px;
+      padding-top: 48px;
+      span {
+        color: #391400;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 0 48px 0 48px;
+      }
+      p {
+        color: #391400a3;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 19px;
+        padding: 0 48px 0 48px;
+      }
+      width: 336px;
+      background-color: white;
+      border-radius: 6px 6px 0 6px;
+      position: relative;
+
+      padding-top: 169px;
+    }
+    .Oval {
+      position: absolute;
+      left: 28px;
+      top: 45px;
+    }
+    .knife {
+      position: absolute;
+      left: 52px;
+      top: 68px;
+    }
+  }
+  .little__card {
+    border: 1px solid #f3d1bf;
+    padding-top: 107px;
+    padding-left: 48px;
+    position: absolute;
+    right: -208px;
+    top: 30px;
+    span {
+      font-size: 24px;
+      font-weight: 700;
+      color: #391400;
+      
+    }
+    p {
+      margin-top: 19px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #391400a3;
+    }
+    width: 336px;
+    height: 272px;
+  }
+}

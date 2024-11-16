@@ -1,0 +1,66 @@
+.service {
+  background-color: #fdf0e9;
+  &__wrapper {
+    display: flex;
+    gap: 120px;
+  }
+  .right__box {
+    .right-box__title {
+      color: #ef6d58;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    h3 {
+      color: #391400;
+      font-size: 55px;
+      font-weight: 800;
+      margin-top: 20px;
+      margin-bottom: 26px;
+    }
+    p {
+      color: #391400;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .user__profile {
+      position: relative;
+      margin-top: 39px;
+      margin-left: 35px;
+      margin-bottom: 12px;
+      img {
+        position: absolute;
+        left: -78px;
+        top: -19px;
+      }
+      span {
+        color: #391400a3;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+  .last_name {
+    margin-left: 35px;
+  }
+  .service__btn {
+    color: #391400;
+    background-color: white;
+    padding: 18px 35px;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 98px;
+    margin-left: 31px;
+    transition: 0.3s ease-in-out;
+    
+  }
+  .service__btn:hover{
+    transform: scale(1.03);
+    color: white;
+    background-color: #391400;
+
+  }
+  
+}
